@@ -26,3 +26,17 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+//inscription
+
+        
+        function inscrit(){
+        let n=document.getElementById("name").value;
+        let p=document.getElementById("prénom").value;
+        let d=document.getElementById("date").value;
+        let a=document.getElementById("password").value;
+
+            alert("nom:"+toString(n)+"<br>prénom:"+p+"<br> date:"+d+"<br> password:"+a);
+        }
+
+   
+
